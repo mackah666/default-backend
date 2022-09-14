@@ -58,7 +58,7 @@ steps:
     title: Push image with tag based semver tags
     type: push
     registry: dockerhub
-    image_name: cloudposse/${{CF_REPO_NAME}}
+    image_name: mackah666/${{CF_REPO_NAME}}
     candidate: ${{build_image}}
     tag: "${{SEMVERSION_TAG}}"
     when:
@@ -82,7 +82,7 @@ steps:
     title: Push image with latest tag
     type: push
     registry: dockerhub
-    image_name: cloudposse/${{CF_REPO_NAME}}
+    image_name: mackah666/${{CF_REPO_NAME}}
     candidate: ${{build_image}}
     tag: latest
     when:
