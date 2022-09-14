@@ -1,6 +1,6 @@
 # Build a service with environment variables
 version: 0.2
-# forced build 8
+# forced build 9
 steps:
   init_variables:
     title: Init variables
